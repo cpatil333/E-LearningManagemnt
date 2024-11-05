@@ -1,0 +1,42 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+  max-width: 1200px;
+  margin: 50px auto; /* Centering the dashboard with some margin on the top */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.dashboard-section {
+  margin: 20px 0; /* Spacing between sections */
+}
+
+.dashboard-card {
+  background-color: white; /* White background for cards */
+  padding: 15px;
+  margin: 10px 0; /* Margin for spacing between cards */
+  border-radius: 5px; /* Rounded corners for cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+}
+
+.logout-button {
+  background-color: #ff4d4f; /* Red color for logout button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute; /* Fixed position for logout button */
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.logout-button:hover {
+  background-color: #ff7875; /* Darker red on hover */
+}
+
+

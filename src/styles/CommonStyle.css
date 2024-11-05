@@ -1,0 +1,160 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parentContainer {
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  align-items: flex-start; /* Align items to the start (top) */
+  height: 100vh; /* Optional: full height of the viewport */
+}
+
+.DivCenter {
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prodTablediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Ensures it’s flush to the top */
+}
+
+.prodTablediv form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.prodTablediv label {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.prodTablediv input[type="text"],
+input[type="date"],input[type="email"],
+.prodTablediv select {
+  width: calc(100% - 30px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.btn-submt {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prodTablediv button:hover {
+  background-color: #45a049;
+}
+
+.action-bar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  margin-bottom: 20px;
+}
+
+.btn-add {
+  background-color: #007bb5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back {
+  background-color: #007bb5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #45a049;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead tr {
+  background-color: #4caf50;
+  color: white;
+}
+
+thead th,
+tbody td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-edit {
+  background-color: #008cba;
+  color: white;
+  padding: 7px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #007bb5;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #e53935;
+}
